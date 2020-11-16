@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Descrição do servidor</title>
+    <style>
+        body {
+            background: #6d6dee;
+            font: normal 15pt Verdana;
+            color: white
+}
+header {
+text-align:center;
+}
+section {
+background: white;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+color: black
+}
+footer {
+    color:white;
+    text-align:center;
+    font-style:italic;
+}
+    </style>
+     
+</head>
+<body>
+    <header>
+        <h1>Descrição</h1>
+        <section>
+<div id="nome">
+    <p>Digite um nome: <input type="name" name="nick" id="txtn">
+    <input type="button" value="Confirmar" onclick=confirmar()></p>
+</div>
+<div id="foto">
+    <img id="imagem" src="https://i.ibb.co/SnWT6Rh/pepe-imagem.png" alt="foto do site"> 
+</div>
+<div id="res"><p><br>Preencha com o nome de alguém do servidor!</br>
+</div>
+        </section>
+    </header>
+    <footer>
+        <p>@darkodmcg</p>
+        </footer>
+        <script>
+function confirmar() {
+    var nome = document.getElementById('txtn')
+    var n = (nome.value)
+    var img = document.getElementById('imagem')
+    var res = document.getElementById('res')
+   if (nome.value.length == 0) {    
+       res.innerHTML = "<p>Preencha com um nome válido!</p> <p>Ou recarregue a página para ver o Pepe.</p>"
+      alert('Você não digitou um nome!') 
+      img.src = 'https://i.ibb.co/bXdHXKm/errou-imagem.png'
+      document.body.style.background = '#66379A'
+
+   } else {
+
+    res.innerHTML = "<p>Nome inválido!</p> <p>Ou recarregue a página para ver o Pepe.</p>"
+    img.src = 'https://i.ibb.co/bXdHXKm/errou-imagem.png'
+    document.body.style.background = '#66379A'
+
+}  if (n.toUpperCase() == "TROLLEIXD") {
+    
+    img.src = 'https://i.ibb.co/jgG7YKF/maeve-imagem.png'
+    document.body.style.background = '#DA7C8F'
+    res.innerHTML = "<p>Foto da Maeve</p>";
+
+   } else if (n.toUpperCase() == "DARKODMCG") {
+
+       img.src = 'https://i.ibb.co/YdTShz6/torvald-imagem.png'
+       document.body.style.background = '#60578C'
+       res.innerHTML = "<p>eu msm</p>";
+
+   } else if (n.toUpperCase() == "PRINCELOUIZ") {
+
+       img.src = 'https://i.ibb.co/L9249DM/lex-imagem.png'
+       document.body.style.background = '#FBFBFB'
+       res.innerHTML = "<p>Hétero</p>"
+
+   } else if (n.toUpperCase() == "THELIPO") {
+       img.src = 'https://i.ibb.co/MPPvv1y/evie-imagem.png'
+       document.body.style.background = '#5ACFFF'
+       res.innerHTML = "<p>Mt veloz</p>"
+
+   } else if (n.toUpperCase() == "GDS") {
+       img.src = 'https://i.ibb.co/Sx6B8PF/gadon-imagem.png'
+       document.body.style.background = '#B59157'
+       res.innerHTML = "Melhor imagem."
+
+   } else if (n.toUpperCase() == "JOOJ") {
+
+       img.src = 'https://i.ibb.co/2K40MSg/jooj.gif'
+       document.body.style.background = '#FFFFFF'
+       res.innerHTML = "<p>Jooj!<p>"
+
+   } else if (n.toUpperCase() == "NAKY") {
+
+       img.src = 'https://i.ibb.co/pWKdX78/drogoz-imagem.png'
+       document.body.style.background = '#3E1C1D'
+       res.innerHTML = "<p><strong>N.O.J.E.N.T.O</strong></p>"
+
+   } else if (n.toUpperCase() == "PEDRO") {
+
+       img.src = 'https://i.ibb.co/dLRHDk6/pedro-imagem.png'
+       document.body.style.background = '#A61C2A'
+       res.innerHTML = "<p><strong>Banido</strong></p>"
+
+   } else if (n.toUpperCase() == "NEWVEET") {
+
+    img.src = 'https://i.ibb.co/31Rp7ct/downze-imagem.png'
+    document.body.style.background = '#EEC649'
+    res.innerHTML = "<p>NewIveteSangalo</p>"
+    
+} else if (n.toUpperCase() == "SPARTAN") {
+
+    img.src = 'https://i.ibb.co/TbRC1Mq/spartan-imagem.png'
+    document.body.style.background = '#46092A'
+    res.innerHTML = "<p>Foto do kpt</p>"
+} else if (n.toUpperCase() == "FOX") {
+
+    img.src = 'https://i.ibb.co/kyxYfQq/shalin-imagem.png'
+    document.body.style.background = '#CC3729'
+    res.innerHTML = "<p>Esconde o jogo igual o Sha Lin fica invisível.</p>"
+} 
+}
+
+        </script>
+</body>
+</html>
