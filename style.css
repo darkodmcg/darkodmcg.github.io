@@ -17,7 +17,7 @@ max-width: 800px;
 
 
 body
-{                
+{               
 border: 1px dotted black;
 outline: 1px solid darkgreen;
 box-shadow: 4px 2px 5px 3px;
@@ -28,12 +28,13 @@ padding: 10px,;
 border-radius: 20px;
 background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 font-family: var(--fonte0); 
-color: var(--cor1); 
-background-color: var(--cor4); 
+color: white; 
+background-color: darkgreen; 
 text-align: justify;
 }
+
 li {
-list-style-type: "\2714"; 
+list-style-type:"\2714"; 
 list-style-position: inside;  
 }
 
@@ -74,7 +75,4 @@ left: 0;
 width: 100%;
 height: 100%;
 border: 0;
-
-}       
-
 }
