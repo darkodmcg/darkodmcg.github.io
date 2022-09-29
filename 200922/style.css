@@ -1,0 +1,54 @@
+        body 
+        { 
+        font: normal 1em Arial, Helvetica, sans-serif;
+        margin: 5%;
+        padding: 10px,;
+        border-style: groove;
+        color: azure;
+        background-color: darkcyan;
+        background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+          
+        text-align: justify;
+        }
+
+        h1, h2, h3, h4, h5, h6
+
+        { 
+        margin: 2%;
+        
+        color: chartreuse;
+        }
+
+        p 
+
+        { 
+        margin: 2%;
+        
+        }
+
+        a 
+        { 
+        margin: 2%;
+        color: white;
+        font-weight: bold;
+        }
+
+        div 
+        { 
+        margin: 2%;
+        text-align: center;
+        }
+
+        #titulo-principal {
+                background-color: darkgreen;
+                color: white;
+                text-align: center;
+        }
+
+        .topico {
+                text-align: right;
+        }
+
+        .texto {
+                text-align: justify;
+        }
