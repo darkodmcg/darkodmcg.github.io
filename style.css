@@ -36,6 +36,15 @@
     background-color: darkgreen; 
     text-align: justify;
     }
+
+    main {
+        background-color: rgba(240, 248, 255, 0.466);
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 2px #0d2879;
+        font-family: 'Times New Roman', Times, serif;        
+        padding: 30px;
+        border-radius: 20px;
+    }
     
     li {
     list-style-type:"\2714"; 
@@ -56,7 +65,7 @@
     
     { 
     margin: 2%;
-    font-family: 'Courier New', Courier, monospace;
+    /*font-family: 'Courier New', Courier, monospace;*/
     }
     
     a 
