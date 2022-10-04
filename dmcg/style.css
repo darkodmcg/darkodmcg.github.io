@@ -40,6 +40,7 @@ body{
     a {
         color: aliceblue;
         text-decoration: none;
+        text-shadow: 2px 2px 2px black;
     }
     .google, .pag2{
         text-shadow: 2px 2px 2px black;
