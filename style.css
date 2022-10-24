@@ -15,7 +15,7 @@
     
     }
     /**/
-    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
     body
     {               
     border: 1px dotted black;
@@ -111,6 +111,7 @@ li {
     list-style: none;
 }
 #shine {
+    font-family: 'Poppins';
     height: 80px;
     width: 80px;
     display: flex;

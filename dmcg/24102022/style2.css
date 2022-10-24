@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: #053a3D;
+}
+
+.container {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+}
+
+#flag {
+    margin: 50px;
+    width: 300px;
+    height: 200px;
+}
+.flag_img {
+    position: relative;
+    background-image: url("bandeiragrande.jpg");
+    background-size: 300px 100%;
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+    animation: wave 1s ease-in-out infinite alternate;
+}
+@keyframes wave {
+    0% {
+        top: 5%;
+        
+    }
+    100% {
+        top: -5%;
+    }
+}
+
