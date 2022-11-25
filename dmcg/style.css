@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to bottom,rgb(27, 124, 189),rgb(104, 5, 124),rgb(221, 96, 23),rgb(163, 47, 144),rgb(97, 28, 209));
+    width: 100%;
+    }
+    main{
+        width: 80%;
+        background-image: linear-gradient(to top, rgb(234, 216, 193),rgb(216, 239, 209),rgb(181, 185, 236));
+        border-radius: 15px;
+        box-shadow:10px,10px,10px, rgba(52, 43, 54, 0.356);
+        padding:10px;
+        margin:80px;
+    }
+    /* id em html é # em css */
+    /* class em html é . em css */
+        h1{
+            color: brown;
+            text-align: center;
+            text-shadow: 2px 2px 2px rgb(253, 241, 241);
+        }
+       #PRINCIPAL{
+        text-align: center;
+        color: aqua;
+        font-size:4em;
+    
+       }
+        h2{
+            text-align: justify;
+            background-color: blueviolet; 
+            color: white;
+            text-shadow: 2px 2px 2px orangered;
+        }
+    div{
+        display:inline-block;
+        background-color: blue;
+        color: aliceblue;
+        text-align:center;
+        height: 200px;
+        width: 200px;
+    }
+    a {
+        color: aliceblue;
+        text-decoration: none;
+        text-shadow: 2px 2px 2px black;
+    }
+    .google, .pag2{
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    p{text-align: left; color: black;}
+
+    img {
+        width: 100%;
+    }

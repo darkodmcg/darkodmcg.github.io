@@ -1,0 +1,42 @@
+*{
+box-sizing: border-box;
+     }
+     
+     body {
+     background-image: linear-gradient(to bottom,
+        #eafbff 0%,
+        #eafbff 50%,
+        #5290f9 50%,
+        #5290f9 100%
+        );
+     background-color: rgb(255, 255, 255);
+     display:inline-flex;
+     align-items: center;
+     justify-content: center;
+     height: 500px;
+     width: 500px;
+     overflow: visible;
+     margin: 20px;
+     }
+     
+     .container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     max-width: 100%;
+     max-height: 100%;
+     }
+     
+     .square {
+     background-color: #1d1d1d;
+     box-shadow: 0 0 2px #000;
+    height: 16px;
+     width: 16px;
+     margin: 2px;
+     transition: 2s ease;
+     }
+    
+     .square:hover {
+     transition-duration: 0s;
+     }
